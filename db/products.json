@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "laptop",
+      "description": "laptop gaming",
+      "price": 1000,
+      "inStock": false
+    },
+    {
+      "id": 2,
+      "name": "smartphone",
+      "description": "Android smartphone with dual cameras",
+      "price": 500,
+      "inStock": false
+    },
+    {
+      "id": 3,
+      "name": "headphones",
+      "description": "wireless noise-canceling headphones",
+      "price": 200,
+      "inStock": false
+    },
+    {
+      "id": 4,
+      "name": "watch",
+      "description": "waterproof smartwatch with heart rate monitor",
+      "price": 300,
+      "inStock": false
+    },
+    {
+      "name": "Play Station",
+      "description": "Play Station 5 con el juego COD MW2",
+      "price": "200000",
+      "inStock": false,
+      "id": 7
+    },
+    {
+      "name": "Macbook Air",
+      "description": "Macbook Air Pro con 16GB ram, 4 nucleos y SSD 1000GB",
+      "price": "980000",
+      "inStock": false,
+      "id": 8
+    }
+  ]
+}

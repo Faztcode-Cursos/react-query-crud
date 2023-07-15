@@ -1,0 +1,82 @@
+body{
+  background-color: #202020;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 1rem auto;
+}
+
+form label{
+  margin-bottom: .5rem;
+}
+
+label{
+  font-size: 1.2rem;
+}
+
+input[type="text"]{
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+input[type="checkbox"]{
+  width: 1.2rem;
+  height: 1.2rem;
+  accent-color: #000;
+  margin-right: .5rem;
+}
+
+button[type="submit"],
+button[type="button"]{
+  color: #fff;
+  background-color: #202020;
+  text-transform: uppercase;
+  padding: .3rem .6rem;
+  border: thin solid #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all .5s ease-out;
+}
+
+button[type="button"]{
+  background-color: #c2c2c2;
+  color: #222;
+  text-transform: capitalize;
+  margin-right: 3rem;
+}
+
+button:hover{
+  opacity: .7;
+}
+
+.products{
+  display: grid;
+  grid-template-columns: repeat(3,25%);
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.products div{
+  background-color: #272d72;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.products h3{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.products div > p:last-of-type{
+  font-size: 2rem;
+  color: #c2c2c2;
+}
